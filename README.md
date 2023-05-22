@@ -12,6 +12,9 @@ You can view (and use) the generator at [https://corynko.github.io/Password-Gene
 
 Click the "Generate Password" button, and answer the prompts. Your new password will appear in the box.
 
+![Site on Page Load](./Assets/images/image_2.png)
+![A Newly Generated Password](./Assets/images/image_1.png)
+
 ## Who Can Use It?
 
 This generator is open source and based on starter code by @friendly-parakeet. Anyone can use it, but please note that no actual cybersecurity experts have verified the claims made in this README.
