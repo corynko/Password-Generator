@@ -11,13 +11,19 @@ var passwordText = document.querySelector("#password");
 //prompt method - prompt with dialogue window
 function userPrompts() {
   characterCount = window.prompt(
-    "How Many Characters Would You Like to Include, Up to 128?"
+    "How Many Characters Would You Like to Include? (8-128)"
   );
   if (characterCount > 128) {
-    characterCount = window.prompt("Please Enter a Number Between 1 and 128");
+    characterCount = window.prompt("Please Enter a Number Between 8 and 128");
+  }
+  if (characterCount < 8) {
+    characterCount = window.prompt("Please Enter a Number Between 8 and 128");
   }
   if (characterCount > 128) {
     characterCount = 128;
+  }
+  if (characterCount < 8) {
+    characterCount = 8;
   }
   var caps = window.confirm("Would You Like to Include Capitals?");
   var num = window.confirm("Would You Like to Include Numbers?");

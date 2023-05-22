@@ -2,7 +2,7 @@
 
 ## What Is It?
 
-This nifty little website can generate a truly random string up to 128 characters long, creating passwords that can stand up to brute force attacks for hundreds of years.
+This nifty little website can generate a truly random string between 8 and 128 characters long, creating passwords that can stand up to brute force attacks for hundreds of years.
 
 ## Where Is It?
 
