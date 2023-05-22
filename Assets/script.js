@@ -10,6 +10,7 @@ var passwordText = document.querySelector("#password");
 
 //prompt method - prompt with dialogue window
 function userPrompts() {
+  newSet = defaultSet;
   characterCount = window.prompt(
     "How Many Characters Would You Like to Include? (8-128)"
   );
@@ -31,13 +32,26 @@ function userPrompts() {
 
   if (caps === true) {
     newSet += capSet;
+  } else {
+    newSet += "";
   }
   if (num === true) {
     newSet += numbers;
+  } else {
+    newSet += "";
   }
   if (specs === true) {
     newSet += specKeys;
+  } else {
+    newSet += "";
   }
+  console.log(newSet);
+  console.log(specKeys);
+  // if (specs === true) {
+  //   newSet += specKeys;
+  // } else {
+  //   newSet += "";
+  // }
 
   generatePassword();
   // console.log(newSet);
