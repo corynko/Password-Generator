@@ -45,13 +45,6 @@ function userPrompts() {
   } else {
     newSet += "";
   }
-  console.log(newSet);
-  console.log(specKeys);
-  // if (specs === true) {
-  //   newSet += specKeys;
-  // } else {
-  //   newSet += "";
-  // }
 
   generatePassword();
   // console.log(newSet);
